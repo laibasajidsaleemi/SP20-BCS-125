@@ -1,0 +1,37 @@
+body{
+    border: 1px solid black;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin-left: 240px;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+h3{
+    margin-left: 240px;
+}
+
+div{ 
+    padding: 10px;
+    margin:7px;
+}
+
+#left{
+    float:left;
+    width:40%;
+    margin-left: 110px;
+
+}#right{
+    float:right;
+    width: 40%;
+    margin-right: 90px;
+
+}#content{
+    overflow: hidden;
+    display: inline;
+}  
