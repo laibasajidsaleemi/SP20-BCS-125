@@ -1,0 +1,93 @@
+:root {
+  --bgcolor: #fff;
+}
+body {
+  background-color: var(--bgcolor);
+}
+#hmenu li {
+  list-style: none;
+  display: inline;
+  margin-left: 2%;
+}
+
+#hmenu ul {
+  padding-left: 25%;
+}
+
+#hmenu li p {
+  display: inline;
+  color: #000;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+#hmenu a {
+  text-decoration: none;
+}
+
+#logo {
+  float: left;
+  width: 7%;
+}
+
+#cover {
+  width: 100%;
+}
+
+#banner {
+  width: 100%;
+}
+
+#newarrivals p {
+  font-size: x-large;
+  color: #e91b29;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#llimage {
+  width: 100%;
+}
+
+#lrimage {
+  width: 100%;
+}
+
+#llfooter {
+  float: left;
+  width: 49.5%;
+}
+
+#lrfooter {
+  float: right;
+  width: 49.5%;
+}
+
+#lrfooter a:hover {
+  color: #000;
+  text-decoration-color: #e91b29;
+}
+
+#llfooter a:hover {
+  color: #000;
+  text-decoration-color: #e91b29;
+}
+
+#lrfooter a p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+}
+
+#llfooter a p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+}
+
+hr {
+  display: block;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
