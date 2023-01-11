@@ -57,6 +57,12 @@ router.post("/add", async (req, res) => {
   res.redirect("/");
 });
 
+router.get("/delete/:id", async (req, res) => {
+  let car = await Jewelry.findByIdAndDelete(req.params.id);
+  res.redirect("/");
+});
+
+
 router.get("/", async function (req, res, next) {
   let products = await Jewelry.find();
   return res.render("site/homepage", {
